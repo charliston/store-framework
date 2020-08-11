@@ -48,8 +48,8 @@
       "login"
     ],
     "props": {
-      "inverted": true,
       "sticky": true,
+      "inverted": true,
       "fullWidth": false
     }
   },
@@ -66,17 +66,8 @@
       "inverted": true
     }
   },
-  "header-row#search": {
+  "header-row#main-desktop": {
     "children": [
-      "search-bar"
-    ],
-    "props": {
-      "sticky": true
-    }
-  },
-  "header-row#main-mobile": {
-    "children": [
-      "drawer",
       "logo",
       "header-spacer",
       "minicart",
@@ -84,7 +75,8 @@
     ],
     "props": {
       "sticky": true,
-      "inverted": true
+      "inverted": true,
+      "fullWidth": false
     }
   },
   "header-row#search": {
