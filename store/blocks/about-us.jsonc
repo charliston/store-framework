@@ -31,7 +31,7 @@
   },
   "tab-list.item#home1": {
     "props": {
-      "tabId": "majorAppliances",
+      "tabId": "about",
       "label": "About",
       "defaultActiveTab": true
     }
@@ -47,7 +47,7 @@
       "rich-text#home1"
     ],
     "props": {
-      "tabId": "majorAppliances"
+      "tabId": "about"
     }
   },
   "tab-content.item#home2": {
